@@ -5,15 +5,15 @@
 
 
 ## 5.Yêu cầu đầu ra 
-          - sơ đồ kiến trúc kênh: 
+-sơ đồ kiến trúc kênh: 
   + bấm dấu ( + ) -> new group -> phần group type chọn topic -> create
  
-         -quy định nội dung cho từng câu: 
+-quy định nội dung cho từng câu: 
 + Tính năng Reply in Thread được sử dụng để trả lời trực tiếp dưới một tin nhắn gốckhi nhắn giúp các nội dung thảo luận không bị trôi
 + Không gửi nhiều tin nhắn riêng lẻ liên tiếp làm trôi nội dung chính
 + Chỉ tạo tin nhắn mới khi có một chủ đề thảo luận hoàn toàn khác
 
-         -Bản quy ước giao tiếp:3 quy tắc vàng để tránh
+-Bản quy ước giao tiếp:3 quy tắc vàng để tránh
                   Hạn chế No-Hello Trap
 + thay vì nhắn có ai không rồi ngồi chờ người khác trả lời rồi mình mới nói thì mình có thể hỏi luôn hoặc nói luôn vấn đề của mình đang mắc phải và thắc mắc
                     Hạn chế spam @all
