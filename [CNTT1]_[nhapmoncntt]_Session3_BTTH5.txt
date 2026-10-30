@@ -1,0 +1,55 @@
+BÀI 5: PHÂN TÍCH TỐC ĐỘ TRUYỀN DỮ LIỆU VÀ QUẢN LÝ ĐƯỜNG DẪN TỆP AN TOÀN
+
+PHẦN 1. PHÂN TÍCH VÀ SO SÁNH
+
+1. So sánh đường dẫn
+
+Đường dẫn tuyệt đối:
+- Ghi đầy đủ vị trí của file.
+- Phụ thuộc vào máy tính và tài khoản người dùng.
+- Ví dụ: C:\Users\Ban_Than\Desktop\Project\data\db.csv
+
+Đường dẫn tương đối:
+- Xác định vị trí file dựa vào thư mục hiện tại.
+- Có thể dùng . hoặc ..
+- Dễ chia sẻ và sử dụng trên máy khác hơn.
+
+2. Tính thời gian tải
+
+Tốc độ mạng: 80 Mbps
+
+Đổi sang MB/s:
+80 / 8 = 10 MB/s
+
+Dung lượng file:
+2 GB = 2048 MB
+
+Thời gian tải:
+2048 / 10 = 204,8 giây
+
+Vậy thời gian tải khoảng 204,8 giây (khoảng 3 phút 25 giây).
+
+PHẦN 2. HÀNH ĐỘNG
+
+1. Đường dẫn tương đối
+
+Nếu đang ở thư mục Project:
+
+./data/db.csv
+
+Nếu đang ở thư mục con của Project:
+
+../data/db.csv
+
+2. Kiểm tra đuôi file
+
+- Mở File Explorer.
+- Chọn View.
+- Chọn Show > File name extensions.
+- Kiểm tra lại tên file.
+
+Nếu thấy tai-lieu-on-tap.pdf.exe thì đây là file có đuôi .exe, có khả năng là mã độc và không nên mở.
+
+KẾT LUẬN
+
+80 Mbps = 10 MB/s nên file 2GB mất khoảng 204,8 giây để tải. Đường dẫn tương đối thuận tiện hơn khi chia sẻ dự án. Bật hiển thị đuôi file giúp phát hiện các file giả dạng như .pdf.exe.
